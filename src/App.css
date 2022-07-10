@@ -1,38 +1,45 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2{
+  color: #524f4e;
+  font-weight: 700;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+th{
   color: white;
+  padding: 8px;
+  background-color: #524f4e;
+}
+td{
+  padding: 10px;
+}
+.nav_bar{
+  background-color: #949392;
+  margin: -10px;
+  
+}
+.search-box{
+  border-radius: 12px;
 }
 
-.App-link {
-  color: #61dafb;
+.song_section{
+  color: #949392;
+  margin: 12px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.content_list{
+  margin: 12px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.artist_section{
+  color: #949392;
+  margin: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
